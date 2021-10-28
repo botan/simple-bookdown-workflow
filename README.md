@@ -1,13 +1,14 @@
 # Simple Bookdown Workflow
 
 1. Create a bookdown project in Rstudio
-2. Delete unnecessary parts in `_output.yml` file
-3. Add `output_dir: "docs"` in `_bookdown.yml` file
-4. Build the book at least for once
-5. Add `_bookdown_files` in `.gitignore`
-6. Run `usethis::use_git()`
-7. Run `usethis::use_github()`
-8. Set **Source** to `main /docs` in **Pages**
+2. Run `usethis::use_git()` without committing
+3. Delete unnecessary parts in `_output.yml` file
+4. Add `output_dir: "docs"` in `_bookdown.yml` file
+5. Build the book at least for once
+6. Add `_bookdown_files` in `.gitignore`
+7. Make your initial commit
+9. Run `usethis::use_github()`
+10. Set **Source** to `main /docs` in **Pages**
 
 
 
