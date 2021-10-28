@@ -8,7 +8,10 @@
 6. Add `_bookdown_files` in `.gitignore`
 7. Make your initial commit
 9. Run `usethis::use_github()`
-10. Set **Source** to `main /docs` in **Pages**
+10. Build book
+11. Commit and push
+12. Set **Source** to `main /docs` in **Pages**
+13. Update index.Rmd
 
 
 
